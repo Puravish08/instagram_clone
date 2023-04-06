@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/_200sdp"
+        android:id="@+id/lotani"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/instagram"
+        android:layout_gravity="center"
+        android:layout_marginBottom="220dp">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_20sdp"
+        >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txt2"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Core Instagram"
+
+        android:textColor="#F43394"
+        android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+</LinearLayout>
